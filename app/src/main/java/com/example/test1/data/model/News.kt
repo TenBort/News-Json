@@ -4,7 +4,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class News (
+data class News(
     @SerialName(value = "name")
     val name: String = "",
     @SerialName(value = "image")
@@ -13,4 +13,6 @@ data class News (
     val date: String = "",
     @SerialName(value = "id")
     val id: String = ""
-)
+) {
+    var isFavourite = false
+}

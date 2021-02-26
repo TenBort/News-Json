@@ -9,9 +9,8 @@ import android.view.View
 import android.widget.EditText
 import android.widget.SearchView
 import androidx.core.content.ContextCompat
-import com.example.test1.Adapters.MyPagerAdapter
-import com.example.test1.Adapters.RecyclerAdapter
-import com.example.test1.data.model.News
+import com.example.test1.adapters.MyPagerAdapter
+import com.example.test1.adapters.RecyclerAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

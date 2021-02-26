@@ -1,10 +1,10 @@
-package com.example.test1.Adapters
+package com.example.test1.adapters
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.example.test1.Fragments.FavouritesFragment
-import com.example.test1.Fragments.StoriesFragment
-import com.example.test1.Fragments.VideoFragment
+import com.example.test1.fragments.FavouritesFragment
+import com.example.test1.fragments.StoriesFragment
+import com.example.test1.fragments.VideoFragment
 
 val fragmentTitleList = mutableListOf("stories","video","favourites")
 

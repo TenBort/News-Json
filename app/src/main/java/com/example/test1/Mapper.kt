@@ -11,8 +11,6 @@ import kotlinx.serialization.json.Json
 object Mapper {
     private const val TAG = "Mapper"
 
-
-
     fun fromJson(json: String): List<News> =
         try {
             val list = Json.parse(News.serializer().list, json)
